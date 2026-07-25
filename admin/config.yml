@@ -1,0 +1,56 @@
+backend:
+  name: github
+  # Troque pelo seu usuário/repositório real no GitHub, ex: robimdog/dupla-animal-site
+  repo: SEU_USUARIO/NOME_DO_REPOSITORIO
+  branch: main
+
+# Onde as fotos de produtos enviadas pelo painel ficam salvas
+media_folder: "assets"
+public_folder: "/assets"
+
+locale: "pt"
+
+collections:
+  - name: "produtos"
+    label: "Produtos da loja"
+    files:
+      - file: "content/products.json"
+        label: "Catálogo"
+        name: "produtos"
+        fields:
+          - label: "Produtos"
+            name: "items"
+            widget: "list"
+            summary: "{{name}} — R$ {{price}}"
+            fields:
+              - { label: "Nome do produto", name: "name", widget: "string" }
+              - { label: "Descrição curta", name: "desc", widget: "string" }
+              - label: "Categoria"
+                name: "cat"
+                widget: "select"
+                options:
+                  - { label: "Ração", value: "racao" }
+                  - { label: "Medicamento", value: "medicamentos" }
+                  - { label: "Higiene", value: "higiene" }
+                  - { label: "Acessório", value: "acessorios" }
+                  - { label: "Roupinha", value: "roupinhas" }
+                  - { label: "Casinha", value: "casinhas" }
+              - { label: "Preço (R$)", name: "price", widget: "number", value_type: "float", step: 0.01 }
+              - { label: "Foto do produto", name: "img", widget: "image", required: false }
+
+  - name: "depoimentos"
+    label: "Depoimentos"
+    files:
+      - file: "content/depoimentos.json"
+        label: "Depoimentos"
+        name: "depoimentos"
+        fields:
+          - label: "Depoimentos"
+            name: "items"
+            widget: "list"
+            summary: "{{name}} — {{location}}"
+            fields:
+              - { label: "Depoimento", name: "quote", widget: "text" }
+              - { label: "Nome (ou 'Cliente da loja')", name: "name", widget: "string" }
+              - { label: "Cidade/Bairro", name: "location", widget: "string" }
+              - { label: "Inicial do avatar", name: "initial", widget: "string" }

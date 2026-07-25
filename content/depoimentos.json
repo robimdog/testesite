@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "quote": "Levo meu golden lá desde filhote. Sempre que tenho dúvida sobre ração, o pessoal me ajuda a escolher certinho.",
+      "name": "Cliente da loja",
+      "location": "Araraquara, SP",
+      "initial": "M"
+    },
+    {
+      "quote": "Peço pelo WhatsApp toda semana e chega rapidinho em casa. Muito mais prático que ir até o mercado.",
+      "name": "Cliente da loja",
+      "location": "Vila José Bonifácio",
+      "initial": "R"
+    },
+    {
+      "quote": "Minha gata é bem exigente com ração e eles sempre têm a marca que ela gosta. Atendimento nota 10.",
+      "name": "Cliente da loja",
+      "location": "Araraquara, SP",
+      "initial": "C"
+    }
+  ]
+}

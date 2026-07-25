@@ -1,0 +1,23 @@
+{
+  "items": [
+    {"name":"Ração Origens Class", "desc":"Gatos castrados · Salmão e frango 10,1kg", "cat":"racao", "price":144.90},
+    {"name":"Ração Native Super Premium", "desc":"Cães adultos · Alta performance 15kg", "cat":"racao", "price":149.90},
+    {"name":"Ração Spert Frango & Carne", "desc":"Cães adultos todos os portes 15kg", "cat":"racao", "price":119.90, "img":"assets/racao-spert.jpg"},
+    {"name":"Ração Bummer Premium", "desc":"Cães · Diferentes marcas disponíveis 15kg", "cat":"racao", "price":99.90, "img":"assets/racao-bummer.jpg"},
+    {"name":"Bravecto Antipulgas", "desc":"Proteção contra pulgas, carrapatos e sarnas", "cat":"medicamentos", "price":89.90, "img":"assets/antipulgas.jpg"},
+    {"name":"Credeli Lotilaner 900mg", "desc":"22 a 45kg · Antipulgas e carrapatos", "cat":"medicamentos", "price":79.90, "img":"assets/antipulgas.jpg"},
+    {"name":"NexGard", "desc":"Combate pulgas e carrapatos · Mastigável", "cat":"medicamentos", "price":69.90, "img":"assets/antipulgas.jpg"},
+    {"name":"Defenz Flural", "desc":"Proteção contra pulgas e carrapatos", "cat":"medicamentos", "price":74.90, "img":"assets/antipulgas.jpg"},
+    {"name":"Simparic", "desc":"Antipulgas e carrapatos · Comprimido mastigável", "cat":"medicamentos", "price":84.90, "img":"assets/antipulgas.jpg"},
+    {"name":"VellPet Antipulgas", "desc":"Linha completa para prevenção de parasitas", "cat":"medicamentos", "price":79.90, "img":"assets/antipulgas.jpg"},
+    {"name":"Tapete Higiênico Sanol", "desc":"30 unidades · 60x80cm", "cat":"higiene", "price":49.90, "img":"assets/tapete-higienico.jpg"},
+    {"name":"Shampoo Pet News", "desc":"Higiene e brilho para pelos", "cat":"higiene", "price":34.90},
+    {"name":"Coleira Ajustável", "desc":"Confortável, para cães e gatos", "cat":"acessorios", "price":39.90},
+    {"name":"Brinquedo Mordedor", "desc":"Resistente, ideal para diversão diária", "cat":"acessorios", "price":24.90},
+    {"name":"Roupinha de Frio", "desc":"Quentinha para os dias mais frios", "cat":"roupinhas", "price":44.90},
+    {"name":"Casinha de Madeira", "desc":"Resistente e confortável para o quintal", "cat":"casinhas", "price":229.90},
+    {"name":"Petisco Bistrô Animal · Suíno", "desc":"Snacks naturais para cães e gatos", "cat":"racao", "price":19.90},
+    {"name":"Petisco Bistrô Animal · Bovino", "desc":"Snacks naturais para cães e gatos", "cat":"racao", "price":19.90},
+    {"name":"Petisco Bistrô Animal · Frango", "desc":"Snacks naturais para cães e gatos", "cat":"racao", "price":19.90}
+  ]
+}
